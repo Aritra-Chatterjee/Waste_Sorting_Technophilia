@@ -1,0 +1,114 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>Thank You!</title>
+  <link rel="stylesheet" href="{%static 'css/about.css'%}">
+  <link rel="icon" href="{%static 'images/favicon.ico'%}">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light" style="background-color: #34d9d9;">
+    <div class="container-fluid div2">
+      <a class="navbar-brand" href="/citizenportal"><img height="60px" src="{%static 'images/leaf.png'%}"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div style="padding: 0 auto 0;" class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a style="margin: 0 30px 0;" class="nav-link active" aria-current="page" href="/citizenportal">Home</a>
+          </li>
+          <li class="nav-item">
+            <a style="margin: 0 30px 0;" class="nav-link" href="/request">Request Disposal</a>
+          </li>
+          <li class="nav-item">
+            <a style="margin: 0 30px 0;" class="nav-link" href="/feedback">Give Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a style="margin: 0 30px 0;" class="nav-link" href="/about">About Us</a>
+          </li>
+
+        </ul>
+        <div class="logout">
+          <a class="nav-link" href="#"><button type="button" class="btn btn-outline-danger">Log Out</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="about">
+    <h1>Want to know more about us ?</h1>
+    <br><br>
+    <h3><strong>We are team Underdogs</strong></h3>
+    <div class="team-description">
+      Our team consists of :
+      <ul>
+        <li>Subhrashil Roy</li>
+        <li>Sutirtha Mukherjee</li>
+        <li>Aritra Chatterjee</li>
+        <li>Soumyadeb Misra</li>
+      </ul>
+
+    </div>
+    <div class="our-project">
+      <p><em>Our project is based on Waste Sorting and Collection.</em> In this digital era, it is absolutely necessary to make the process of Waste
+        collecting and sorting easier for both citizens and collectors.</p>
+      <p>Our website <strong>Recycle</strong> makes the process of Waste
+        management easy for everybody.</p>
+      <p>We have made our interface user-friendly and people can find their ways around our website very easily.<br></p>
+
+    </div>
+    <div class="options">
+      <h5><strong>Want to request waste disposal at your house ?</strong></h5> Recycle will make it super easy for you. <br>
+    </div>
+    <br><br><br>
+    <div class="social">
+      <h5><strong>Have any Questons ?</strong></h5> Contact us through our socials mentioned in the <a href="#bottom">footer</a>.
+
+    </div>
+    <br><br><br>
+    <div class="give-feedback">
+      <h5><strong>Have any new suggestions for us ?</strong></h5>
+      <a href="/feedback">Go to our feedback page</a>
+    </div>
+  </div>
+  <br><br><br>
+  <footer id="bottom">
+
+    <div class="footer-text">
+      Follow Us
+    </div>
+    <span class="footer-logo"><img style="height:100px;margin-right: 10px;" src="{%static 'images/leaf.png'%}" alt="logo"></span>
+    <br>
+    <br>
+
+
+
+    <div class="social-icons">
+      <a href="#"><img class="icons" src="{%static 'images/facebook.png'%}" alt=""></a>
+      <a href="#"><img class="icons" src="{%static 'images/instagram.png'%}" alt=""></a>
+      <a href="#"><img class="icons" src="{%static 'images/twitter.png'%}" alt=""></a>
+
+    </div>
+
+
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

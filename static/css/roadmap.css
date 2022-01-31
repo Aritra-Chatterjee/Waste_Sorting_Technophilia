@@ -1,0 +1,443 @@
+.roadmap-main{
+    display: flex;
+    /* background-image: url(./Vector\ \(Stroke\)\ \(1\).png); */
+    /* justify-content: space-around; */
+    align-items: center;
+    border: 2px solid red;
+    max-width: 1200px;
+    background-color: black;
+    /* position: relative; */
+}
+.roadmap{
+    position: relative;
+}
+.roadmap_1{
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    /* margin: 20px 5%; */
+    margin-left: 5%;
+    /* position: relative; */
+}
+dl, ol, ul {
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+    margin-left: -13px !important;
+}
+
+.roadmap_2{
+    width: 50%;
+    text-align: center;
+}
+.roadmap_3{
+    width: 50%;
+    text-align: center;
+}
+.year-1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #999999;
+    
+text-align: left;
+/* margin-top: 40px; */
+
+
+
+}
+.year{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #999999;
+    
+text-align: left;
+margin-top: 14PX;
+
+
+
+
+}
+.year-3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #999999;
+    
+text-align: left;
+/* margin-top: -43px; */
+
+
+}
+
+.hr-1{
+  border-top: 2px solid white;
+  width: 80%;
+  margin-left: 1%;
+  text-align: center;
+}
+ul li{
+    color: #17FFA6;
+    text-align: center;
+}
+.zia{
+    color:red;
+    text-align: left;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+margin-bottom: 0px;
+/* or 144% */
+
+
+color: #FFFFFF;
+}
+.zia-1{
+    color:red;
+    text-align: left;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+margin-bottom: 0px;
+/* or 144% */
+
+
+color: #FFFFFF;
+}
+.zia-2{
+    color:red;
+    text-align: left;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 26px;
+margin-bottom: 0px;
+
+
+
+color: #FFFFFF;
+}
+
+.liner{
+    text-align: center;
+    border: 2px solid green;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    margin-left: 20px ;
+    position: absolute;
+    top: 0;
+}
+.line{
+    margin-left: -10%px !important;
+    width: 100%;
+    margin-left: -20px;
+    height: 245px;
+    /* position: absolute; */
+}
+.road-month{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #17FFA6;
+text-align: left;
+margin-left: 22px;
+}
+.roadmap-heading{
+    background: linear-gradient(
+    91.66deg,
+    #9e68dd 27.01%,
+    #e594e6 47.51%,
+    #6bdab0 71.24%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 72px;
+/* identical to box height, or 112% */
+
+text-align: center;
+text-transform: capitalize;
+margin: 0px auto;
+width: 298px
+}
+.roadpara{
+    text-align: center;
+    margin: 0px auto;
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #999999;
+margin-bottom: 5%;
+
+}
+@media only screen and (max-width: 1201px){
+    .zia{
+        margin-bottom: 0px;
+        font-size: 15px;
+line-height: 26px;
+    }
+    .zia-1{
+        margin-bottom: 0px;
+        font-size: 15px;
+line-height: 26px;
+    }
+    .zia-2{
+        margin-bottom: 0px;
+        font-size: 15px;
+line-height: 26px;
+    }
+    .road-month{
+        
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    
+    color: #17FFA6;
+    text-align: left;
+    }
+    .line{
+     
+        height: 239px;
+    }
+    .year-3{
+        margin-top: -17px;
+    }
+    .year-2{
+        margin-top: 37px;
+    }
+
+}
+@media only screen and (max-width: 993px){
+    .zia{
+        margin-bottom: 0px;
+    font-size: 11px;
+    line-height: 6px;
+    margin-bottom: 0px;
+}
+.zia-1{
+    margin-bottom: 0px;
+    font-size: 11px;
+line-height: 11px;
+margin-left: -10px;
+}
+
+.zia-2{
+    margin-bottom: 0px;
+    font-size: 13px;
+line-height: 14px;
+margin-left: -7px;
+}
+.road-month{
+    
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+margin-bottom: -1px !important;
+
+
+color: #17FFA6;
+text-align: left;
+}
+.line{
+    margin-left: -10%px !important;
+    width: 100%;
+    margin-left: -20px;
+    height: 200px;
+}
+.year{
+margin-bottom: 0px;
+margin-top: 20px;
+
+}
+.year-3{
+margin-top: 1px;
+}
+    }
+    
+@media only screen and (max-width: 778px){
+    .zia{
+        margin-bottom: 0px;
+    font-size: 9px;
+    line-height: 6px;
+    margin-bottom: 0px;
+}
+.zia-1{
+    margin-bottom: 0px;
+    font-size: 11px;
+line-height: 11px;
+margin-left: -10px;
+}
+.zia-2{
+    margin-bottom: 0px;
+    font-size: 10px;
+line-height: 14px;
+margin-left: -7px;
+}
+.road-month{
+        
+    font-size: 19px;
+    line-height: 33px;
+    /* identical to box height */
+    margin-bottom: -1px !important;
+    
+    
+    color: #17FFA6;
+    text-align: left;
+    }
+    .line{
+        margin-left: -10%px !important;
+        width: 100%;
+        margin-left: -20px;
+        height: 200px;
+    }
+    .year-1{
+        margin-top: -3px;
+    }
+.year{
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+}
+.year-3{
+margin-top: 1px;
+}
+.roadmap-heading{
+    font-size:40px ;
+}
+
+    }
+    
+  
+
+.roadmap-2{
+    margin-top: 5%;
+    position: relative;
+}
+    .year-mob{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        
+        color: #999999;
+        
+    text-align: left;
+    margin-top: 14PX;
+    }
+    .road-monthmob{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        /* identical to box height */
+        
+        
+        color: #17FFA6;
+        text-align: center;
+        margin-left: 22px;
+      }
+        .ziamob{
+            
+            /* color:red; */
+            text-align: center;
+            font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 0px;
+        color: black;
+        }
+       .roadmap_mob{
+           text-align: center;
+           margin: 0px auto;
+           width: 80%;
+           border: 2px solid red;
+           
+       }
+       .mob-check{
+           position: absolute;
+           top: 0;
+       }
+      .mob-view{
+          width: 322px;
+      }
+      .distri-main{
+          display: flex;
+          width: 100%;
+
+      }
+      .side-1{
+          border: 2px solid black; 
+          width: 50%;
+          text-align: left;
+      }
+      .side-2{
+        border: 2px solid black;
+        width: 50%;
+        text-align: right;
+    }
+    .distri-text{
+margin-bottom: 0px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+    }
+    .distri-num{
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        
+        color: #17FFA6;
+        
+    }
+    .distri-pi{
+        text-align: center;
+        margin: 0px auto;
+    }
+    .distri-picmain{
+        /* width: 60%; */
+        text-align: center;
+        margin: 0px auto;
+    }
+    .picssss{
+        width: 300px;
+    }

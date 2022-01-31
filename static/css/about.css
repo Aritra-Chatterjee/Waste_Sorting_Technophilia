@@ -1,0 +1,75 @@
+nav{
+  margin-bottom: 10px;
+}
+h1{
+  display: block;
+  margin: 100px 10px 10px;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  background-color: #34d9d9;
+  color: white;
+  border-radius: 15px;
+}
+.about{
+  margin-left: 15px;
+}
+.team-description{
+  font-size: 1.2rem;
+}
+.our-project{
+  font-size: 1.1rem;
+}
+.options{
+  font-size: 1.1rem;
+}
+.social{
+  font-size: 1.2rem;
+}
+.feedback{
+  margin-bottom: 70px;
+  font-size: 1.1rem;
+}
+.footer-text{
+  font-size: 2rem;
+  display: block;
+  margin-left: 15px;
+}
+.div2{
+  display: block;
+  height: 60px;
+  padding: 5px 0 0 0;
+  font-size: 1rem;
+  font-size: 1.2rem;
+}
+.logout{
+  position: absolute;
+  right: 10px;
+}
+.icons{
+  height: 50px;
+  margin-bottom: 7px;
+  margin-left: 7px;
+}
+.icons:hover{
+  opacity: 0.7;
+}
+.logo{
+  height: 35px;
+  margin: 0;
+}
+.request-form{
+  margin: 10px;
+}
+.footer-logo{
+  position: absolute;
+  display: inline;
+  height: 20px;
+  right: 10px;
+}

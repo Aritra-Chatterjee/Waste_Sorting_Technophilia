@@ -1,0 +1,86 @@
+a{
+  color:black;
+}
+h2{
+  margin: 40px 10px 10px 20px;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  margin-bottom: 10px;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+  background-color: #34d9d9;
+  color: white;
+  border-radius: 15px;
+}
+.footer-text{
+  font-size: 2rem;
+  display: block;
+  margin-left: 15px;
+}
+.div2{
+  display: block;
+  height: 60px;
+  padding: 5px 0 0 0;
+  font-size: 1rem;
+  font-size: 1.2rem;
+}
+.logo{
+  height: 35px;
+  margin: 0;
+}
+.div1{
+  display: block;
+  margin: 90px 15px 20px 15px;
+}
+.quotes{
+  color:#fff;
+  font-size: 1.8rem;
+  font-family: 'Merienda', cursive;
+}
+.quotes-person{
+  color: #fff;
+  font-size: 1.2rem;
+}
+.logout{
+  position: absolute;
+  right: 10px;
+}
+
+.icons{
+  height: 50px;
+  margin-bottom: 7px;
+  margin-left: 15px;
+}
+.icons:hover{
+  opacity: 0.7;
+}
+.social-icons{
+  display: block;
+}
+.div3{
+  display: block;
+}
+.floatImg{
+  /* display: block; */
+  float: left;
+  border-radius: 100px;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.footer-logo{
+  position: absolute;
+  display: inline;
+  height: 20px;
+  right: 10px;
+}

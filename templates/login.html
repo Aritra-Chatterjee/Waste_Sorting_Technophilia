@@ -1,0 +1,66 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Log In</title>
+    <link rel="icon" href="{%static 'images/favicon.ico'%}">
+    <link rel="stylesheet" href="{%static 'css/login.css'%}">
+  </head>
+  <body>
+    <div class="container1">
+      <div class="logo">
+        <a href="{%url "main"%}">
+          <img class="logo-img" height="100%" src="{%static 'images/leaf.png'%}" alt="logo">
+        </a>
+      </div>
+      <div class="login-form">
+        <div class="button-box">
+          <button type="button" style="margin-left: 32%;" class="login-btn toggle-button btn" name="button">Log In</button>
+          <button type="button" class="signup-btn toggle-button" name="button">Sign Up</button>
+        </div>
+        <form class="login" action="/citizenportal/" method="post">
+          {% csrf_token %}
+          <input type="text" class="input-field" placeholder="User Id" maxlength="30" required>
+          <input type="password" class="input-field" placeholder="password" maxlength="30" required>
+          <button type="submit" class="submit-btn">Log In</button>
+        </form>
+        <form class="signup hidden" action="/citizenportal/" method="post">
+          {% csrf_token %}
+          <input type="text" class="input-field" placeholder="User Id" maxlength="30" required>
+          <input type="email" class="input-field" placeholder="email" maxlength="50" required>
+          <input type="password" class="input-field" placeholder="password" maxlength="30" required>
+          <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+
+      </div>
+      <footer>
+        <div class="row">
+          <div class="col">
+            <div class="social-icons">
+              <a href="#"><img class="icons" src="{%static 'images/facebook.png'%}" alt=""></a>
+              <a href="#"><img class="icons" src="{%static 'images/instagram.png'%}" alt=""></a>
+              <a href="#"><img class="icons" src="{%static 'images/twitter.png'%}" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{%static 'js/login.js'%}" charset="utf-8"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
